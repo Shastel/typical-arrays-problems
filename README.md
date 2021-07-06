@@ -7,9 +7,9 @@ You should implement 3 functions: `max`, `min`, and `avg` for searching minimal 
 
 For example:
 ```js
-min(1, 2, 3, 4) // returns 1;
-max(1, 2, 3, 4) // returns 4;
-avg(1, 2, 3, 4) // returns 2.5;
+min([1, 2, 3, 4]) // returns 1;
+max([1, 2, 3, 4]) // returns 4;
+avg([1, 2, 3, 4]) // returns 2.5;
 ```
 
 Please note, that you should return 0 if no params specified or an empty array passed
@@ -33,5 +33,5 @@ Write your code in `src/index.js.
 4. Press the submit button and enjoy
 
 ### Notes
-1. We recommend you to use nodejs of version 12 or lower. If you using are any of the features which are not supported by v12, the score won't be submitted.
+1. We recommend you to use nodejs of version 14 or lower. If you using are any of the features which are not supported by v12, the score won't be submitted.
 2. Each of your test case is limited to 30 sec.
